@@ -12,6 +12,9 @@ class Settings(BaseSettings):
     openrouter_api_key: SecretStr
     openrouter_model: str = "google/gemini-2.5-flash-lite"
     openrouter_url: str = "https://openrouter.ai/api/v1/chat/completions"
+    # Razonamiento de los modelos que lo soportan (DeepSeek, Gemini 3, GPT-5...). Apagado: para
+    # responder sobre un CV no hace falta y gastaría parte de max_tokens y del presupuesto.
+    openrouter_reasoning: bool = False
     # Atribución de la app en OpenRouter (cabeceras HTTP-Referer y X-Title).
     public_url: str = "https://julian-lizcano.com"
 

@@ -29,6 +29,8 @@ class OpenRouterLlm:
             "max_tokens": self.settings.max_tokens,
             "temperature": 0.3,
             "stream": True,
+            # Los modelos sin razonamiento ignoran este parámetro.
+            "reasoning": {"enabled": self.settings.openrouter_reasoning},
         }
         headers = {
             "Authorization": f"Bearer {self.settings.openrouter_api_key.get_secret_value()}",

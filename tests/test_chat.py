@@ -139,3 +139,30 @@ def test_forwarded_ip_uses_last_hop(llm):
 
 def test_prompt_never_contains_phone():
     assert "320" not in system_prompt()
+
+
+def test_openrouter_request_disables_reasoning_by_default():
+    import asyncio
+
+    import httpx
+
+    from app.llm import OpenRouterLlm
+
+    seen = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        seen["body"] = json.loads(request.content)
+        seen["auth"] = request.headers["authorization"]
+        sse = 'data: {"choices":[{"delta":{"content":"ok"}}]}\n\ndata: [DONE]\n\n'
+        return httpx.Response(200, text=sse, headers={"content-type": "text/event-stream"})
+
+    async def run() -> str:
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+            llm = OpenRouterLlm(settings(openrouter_model="deepseek/deepseek-v4.1-flash"), client)
+            return "".join([d async for d in llm.stream([{"role": "user", "content": "hola"}])])
+
+    assert asyncio.run(run()) == "ok"
+    assert seen["body"]["model"] == "deepseek/deepseek-v4.1-flash"
+    assert seen["body"]["reasoning"] == {"enabled": False}
+    assert seen["body"]["max_tokens"] == 400
+    assert seen["auth"] == "Bearer test"
