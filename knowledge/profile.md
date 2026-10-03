@@ -8,7 +8,7 @@
 
 ## Perfil
 
-Desarrollador full-stack con más de 3 años de experiencia construyendo aplicaciones web escalables: backend con Python y FastAPI (también Node.js/NestJS), APIs REST con autenticación JWT/OAuth2, bases de datos relacionales y NoSQL (PostgreSQL, MySQL, MongoDB) y frontend con React y Angular. Experiencia con microservicios, Redis y procesamiento asíncrono, contenedores Docker, CI/CD con GitHub Actions y despliegue en AWS, GCP y Oracle Cloud. Ha llevado soluciones de la idea a producción con impacto medible: una automatización con IA que diseñó ahorra USD 4.000 mensuales y se convirtió en producto comercial. Cuida la seguridad y la calidad del código, participa en diseño técnico y revisión de código, y trabaja en equipos ágiles.
+Desarrollador full-stack con más de 3 años de experiencia construyendo aplicaciones web escalables: backend con Python y FastAPI (también Node.js/NestJS), APIs REST con autenticación JWT/OAuth2, bases de datos relacionales y NoSQL (PostgreSQL, MySQL, MongoDB) y frontend con React y Angular. Experiencia con microservicios, Redis y procesamiento asíncrono, contenedores Docker, CI/CD con GitHub Actions y despliegue en AWS y GCP. Ha llevado soluciones de la idea a producción con impacto medible: una automatización con IA que diseñó ahorra USD 4.000 mensuales y se convirtió en producto comercial. Cuida la seguridad y la calidad del código, participa en diseño técnico y revisión de código, y trabaja en equipos ágiles.
 
 ## Experiencia
 
@@ -19,7 +19,7 @@ Desarrollador full-stack con más de 3 años de experiencia construyendo aplicac
 - Esa solución ahorra USD 4.000 al mes en consumo de APIs externas (Deepgram) y abrió una nueva línea de ingresos al empaquetarse como producto para nuevos clientes.
 - Desarrolló bots de WhatsApp y agentes de IA con APIs de OpenAI integrados a los flujos operativos; implementó modelos preentrenados (HuggingFace, OpenAI) adaptados al negocio.
 - Automatizó procesos de datos con Python, Selenium y Pandas.
-- Despliega aplicaciones en contenedores Docker sobre GCP y Oracle Cloud; gestiona y optimiza bases de datos MySQL y MongoDB.
+- Despliega aplicaciones en contenedores Docker sobre GCP; gestiona y optimiza bases de datos MySQL y MongoDB.
 - Participa en el ciclo completo de productos SaaS bajo Scrum (diseño técnico, refinamiento, revisión de código, incidencias) con Git (GitHub, GitLab, Azure DevOps).
 
 ### Systems Analyst — Net Applications (octubre 2022 – julio 2023, Bogotá)
@@ -38,7 +38,7 @@ Desarrollador full-stack con más de 3 años de experiencia construyendo aplicac
 - Seguridad: autenticación y autorización con JWT y OAuth2.
 - Frontend: React, Angular, JavaScript, TypeScript.
 - Bases de datos: PostgreSQL, MySQL, MongoDB, Redis.
-- Cloud y DevOps: Docker, GitHub Actions (CI/CD), AWS (Lambda, API Gateway, S3), GCP, Oracle Cloud, Terraform.
+- Cloud y DevOps: Docker, GitHub Actions (CI/CD), AWS (Lambda, API Gateway, S3), GCP, Terraform.
 - IA y automatización: APIs de OpenAI, Claude, HuggingFace, agentes de IA, WhisperX, Pandas, Selenium, Playwright.
 - Prácticas: Scrum, diseño técnico, revisión de código, procesamiento asíncrono.
 
