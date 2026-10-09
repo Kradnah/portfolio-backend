@@ -8,7 +8,7 @@
 
 ## Perfil
 
-Desarrollador full-stack con más de 3 años de experiencia construyendo aplicaciones web escalables: backend con Python y FastAPI (también Node.js/NestJS), APIs REST con autenticación JWT/OAuth2, bases de datos relacionales (sobre todo PostgreSQL, también MySQL) y frontend con React y Angular. Experiencia con microservicios, Redis y procesamiento asíncrono, contenedores Docker, CI/CD con GitHub Actions y despliegue en AWS y GCP. Ha llevado soluciones de la idea a producción con impacto medible: una automatización con IA que diseñó ahorra USD 4.000 mensuales y se convirtió en producto comercial. Cuida la seguridad y la calidad del código, participa en diseño técnico y revisión de código, y trabaja en equipos ágiles.
+Desarrollador full-stack con más de 4 años de experiencia construyendo aplicaciones web escalables: backend con Python y FastAPI (también Node.js/NestJS), APIs REST con autenticación JWT/OAuth2, bases de datos relacionales (sobre todo PostgreSQL, también MySQL) y frontend con React y Angular. Experiencia con microservicios, Redis y procesamiento asíncrono, contenedores Docker, CI/CD con GitHub Actions y despliegue en AWS y GCP. Ha llevado soluciones de la idea a producción con impacto medible: una automatización con IA que diseñó ahorra USD 4.000 mensuales y se convirtió en producto comercial. Cuida la seguridad y la calidad del código, participa en diseño técnico y revisión de código, y trabaja en equipos ágiles.
 
 ## Experiencia
 
