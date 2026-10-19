@@ -28,6 +28,19 @@ PERFIL
 """
 
 
+PAGE_LANG = {"es": "español", "en": "inglés"}
+
+
 @lru_cache
 def system_prompt() -> str:
     return RULES + KNOWLEDGE.read_text(encoding="utf-8")
+
+
+def language_reminder(page_lang: str | None) -> str:
+    """Va al final del contexto: los modelos baratos tienden a contestar en el idioma del perfil (español)."""
+    hint = f" La página se está viendo en {PAGE_LANG[page_lang]}." if page_lang in PAGE_LANG else ""
+    return (
+        "IDIOMA: responde en el idioma en que está escrito el último mensaje del usuario, aunque el "
+        f"perfil esté en español.{hint}\n"
+        "LANGUAGE: if the user's last message is in English, write your entire answer in English."
+    )

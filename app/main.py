@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 
 from .limits import UsageLimiter
 from .llm import Llm, LlmError, OpenRouterLlm
-from .prompt import system_prompt
+from .prompt import language_reminder, system_prompt
 from .session import SessionSigner
 from .settings import Settings, get_settings
 
@@ -30,6 +30,7 @@ class ChatMessage(BaseModel):
 
 class ChatRequest(BaseModel):
     messages: list[ChatMessage] = Field(min_length=1, max_length=40)
+    lang: Literal["es", "en"] | None = None
 
 
 class SessionRequest(BaseModel):
@@ -148,7 +149,7 @@ def create_app(settings: Settings | None = None, llm: Llm | None = None) -> Fast
         history = body.messages[-(settings.max_turns * 2) :]
         messages = [{"role": "system", "content": system_prompt()}] + [
             {"role": m.role, "content": m.content} for m in history
-        ]
+        ] + [{"role": "system", "content": language_reminder(body.lang)}]
         log.info("chat ip=%s turno=%d chars=%d", anon(ip), used + 1, len(last.content))
 
         async def events() -> AsyncIterator[str]:

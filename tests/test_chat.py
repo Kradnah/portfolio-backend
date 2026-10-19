@@ -69,7 +69,18 @@ def test_streams_answer_with_system_prompt(client, llm):
     assert evs[-1] == {"done": True}
     sent = llm.calls[0]
     assert sent[0]["role"] == "system" and "Julian" in sent[0]["content"]
-    assert sent[-1] == {"role": "user", "content": "¿Qué stack usa?"}
+    assert sent[-2] == {"role": "user", "content": "¿Qué stack usa?"}
+    assert sent[-1]["role"] == "system" and "LANGUAGE" in sent[-1]["content"]
+
+
+def test_page_language_hint_reaches_the_model(client, llm):
+    headers = auth(client)
+    client.post(
+        "/api/chat",
+        json={"messages": [{"role": "user", "content": "What is his stack?"}], "lang": "en"},
+        headers=headers,
+    )
+    assert "inglés" in llm.calls[0][-1]["content"]
 
 
 def test_requires_valid_session(client):
@@ -114,7 +125,7 @@ def test_history_is_trimmed(llm):
             {"role": "user" if i % 2 == 0 else "assistant", "content": f"m{i}"} for i in range(9)
         ]
         c.post("/api/chat", json={"messages": history}, headers=auth(c))
-        assert len(llm.calls[0]) == 1 + 4  # system + últimos 2 turnos
+        assert len(llm.calls[0]) == 1 + 4 + 1  # system + últimos 2 turnos + recordatorio de idioma
 
 
 def test_llm_failure_is_reported_as_event():
