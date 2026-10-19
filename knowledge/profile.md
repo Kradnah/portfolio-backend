@@ -1,52 +1,56 @@
 # Julian Camilo Lizcano Rojas
 
-- Rol: Desarrollador Full-Stack (Python · FastAPI · React · Angular · Node.js/NestJS), enfocado en automatización e IA.
-- Ubicación: Bogotá, Colombia.
-- Idiomas: español (nativo), inglés (fluido).
+- Rol: Full-Stack AI Engineer (Python · FastAPI · Angular · IA generativa).
+- Ubicación: Girardot, Colombia; trabaja en remoto.
+- Idiomas: español (nativo), inglés B2 (conversacional).
 - Contacto público: email kradnah@gmail.com · LinkedIn linkedin.com/in/julian-lizcano · web julian-lizcano.com
-- El CV en PDF se puede descargar desde la sección de contacto de la web.
+- El CV en PDF (español e inglés) se puede descargar desde la sección de contacto de la web.
 
 ## Perfil
 
-Desarrollador full-stack con más de 4 años de experiencia construyendo aplicaciones web escalables: backend con Python y FastAPI (también Node.js/NestJS), APIs REST con autenticación JWT/OAuth2, bases de datos relacionales (sobre todo PostgreSQL, también MySQL) y frontend con React y Angular. Experiencia con microservicios, Redis y procesamiento asíncrono, contenedores Docker, CI/CD con GitHub Actions y despliegue en AWS y GCP. Ha llevado soluciones de la idea a producción con impacto medible: una automatización con IA que diseñó ahorra USD 4.000 mensuales y se convirtió en producto comercial. Cuida la seguridad y la calidad del código, participa en diseño técnico y revisión de código, y trabaja en equipos ágiles.
+Desarrollador full-stack con casi 4 años de experiencia llevando a producción soluciones de automatización e IA generativa. Construye backends en Python y FastAPI, interfaces en Angular y React, e integra LLMs, speech-to-text y agentes de IA en procesos reales de negocio. Trabaja a diario con desarrollo asistido por IA (Claude Code, OpenCode).
+
+Diseñó una solución de análisis de llamadas con IA que ahorra USD 4.000 al mes y se convirtió en producto comercial. Despliega con Docker en GCP y en infraestructura propia, trabaja con Scrum, participa en diseño técnico y revisión de código, y ha mentoreado a desarrolladores junior.
 
 ## Experiencia
 
-### Automation Developer — GroupCOS (julio 2023 – presente, Bogotá)
-- Diseña, construye y mantiene APIs REST con Python y FastAPI (además de Node.js/NestJS) que integran servicios internos, bases de datos y APIs externas, implementando la lógica de negocio de productos SaaS.
-- Desarrolla aplicaciones web full-stack con Angular y React (JavaScript/TypeScript).
-- Diseñó e implementó una solución end-to-end de QA y automatización de llamadas: desplegó WhisperX (speech-to-text) en servidores locales y lo integró con ChatGPT para analizar el desempeño de los asesores y dar feedback automático.
-- Esa solución ahorra USD 4.000 al mes en consumo de APIs externas (Deepgram) y abrió una nueva línea de ingresos al empaquetarse como producto para nuevos clientes.
-- Desarrolló bots de WhatsApp y agentes de IA con APIs de OpenAI integrados a los flujos operativos; implementó modelos preentrenados (HuggingFace, OpenAI) adaptados al negocio.
-- Automatizó procesos de datos con Python, Selenium y Pandas.
-- Despliega aplicaciones en contenedores Docker sobre GCP; gestiona y optimiza bases de datos MySQL.
-- Participa en el ciclo completo de productos SaaS bajo Scrum (diseño técnico, refinamiento, revisión de código, incidencias) con Git (GitHub, GitLab, Azure DevOps).
+### Automation Developer — GroupCOS (julio 2023 – julio 2026, Bogotá, remoto)
+- Diseñó y desplegó una solución end-to-end de análisis de llamadas: WhisperX (speech-to-text) en servidores propios integrado con ChatGPT para evaluar asesores y generar feedback automático.
+- Esa solución ahorra USD 4.000 al mes en APIs externas (Deepgram) y se empaquetó como producto comercial para nuevos clientes.
+- Desarrolló una herramienta de OCR para validar facturas en PDF que extrae datos personales y valores y los verifica automáticamente.
+- Desarrolló bots de WhatsApp y agentes de IA con la API de OpenAI, integrados a flujos operativos; adaptó modelos preentrenados de Hugging Face a casos de negocio.
+- Construyó APIs REST con Python y FastAPI (y Node.js/NestJS) para productos SaaS que integran servicios internos, bases de datos y APIs externas.
+- Desarrolló frontends en Angular y React con TypeScript, conectados a los servicios backend.
+- Desplegó aplicaciones en contenedores Docker sobre GCP con CI/CD en GitLab, y optimizó bases de datos MySQL para rendimiento y consistencia.
+- Automatizó procesos de datos con Python, Selenium y Pandas, eliminando trabajo manual repetitivo.
+- Procesó grabaciones y datos personales de clientes aplicando controles de acceso y privacidad.
+- Mentoreó a desarrolladores junior y practicantes, y tradujo necesidades de clientes y áreas de negocio en requerimientos técnicos, trabajando bajo Scrum.
 
-### Systems Analyst — Net Applications (octubre 2022 – julio 2023, Bogotá)
-- Bots de RPA con Automation Anywhere, UiPath y PowerApps para clientes externos.
-- Scripts en Python para automatizar flujos operativos.
-- Optimización de bases de datos MySQL.
+### RPA Developer — Net Applications (octubre 2022 – julio 2023, Bogotá)
+- Bots de RPA con UiPath y Automation Anywhere para automatizar procesos de clientes.
+- Scripts en Python para automatizar flujos operativos y optimización de bases de datos MySQL.
 
-### Administrative Apprentice — Siemens Energy SAS (abril 2022 – octubre 2022, Bogotá)
-- Dashboards en Tableau para análisis de KPIs.
-- Automatización de procesos internos con Power Platform (Power Apps, Power Automate, Power BI).
-- Estructuración y transformación de datos para informes.
+### Aprendiz de Análisis y Desarrollo de Sistemas — Siemens Energy (abril 2022 – octubre 2022, Bogotá)
+- Estructuró y transformó datos operativos para generar informes de apoyo a decisiones.
 
 ## Habilidades técnicas
 
-- Backend y APIs: Python, FastAPI, Node.js, NestJS, APIs REST, GraphQL, webhooks, microservicios.
-- Seguridad: autenticación y autorización con JWT y OAuth2.
-- Frontend: React, Angular, JavaScript, TypeScript.
-- Bases de datos: PostgreSQL (la que más domina, incluido PostGIS), MySQL y Redis.
-- Cloud y DevOps: Docker, GitHub Actions (CI/CD), AWS (Lambda, API Gateway, S3), GCP, Terraform.
-- IA y automatización: APIs de OpenAI, Claude, HuggingFace, agentes de IA, WhisperX, Pandas, Selenium, Playwright.
-- Prácticas: Scrum, diseño técnico, revisión de código, procesamiento asíncrono.
+- IA generativa y NLP: LLMs (OpenAI, Claude, Gemini, OpenRouter), RAG (embeddings, chunking, LlamaIndex), agentes de IA (LangChain, LangGraph, Hermes Agent), function calling / tool use, MCP, chatbots, OCR y clasificación de documentos, speech-to-text (WhisperX), text-to-speech, modelos de visión, prompt engineering, prompt caching.
+- Modelos e inferencia: Hugging Face Transformers, PyTorch, fine-tuning (LoRA), vLLM, llama.cpp, cuantización (GGUF), Ollama, generación de imagen y video (ComfyUI), modelos de decisión (Laya).
+- Desarrollo asistido por IA: Claude Code, OpenCode, flujos con agentes, MCP y Agent Skills.
+- Backend: Python, FastAPI, Flask, APIs REST, Node.js, NestJS, WebSockets y SSE (streaming), Celery, RabbitMQ, Kafka, procesamiento asíncrono.
+- Frontend: Angular (17+, signals), React, TypeScript, JavaScript.
+- Bases de datos: PostgreSQL (incluido PostGIS en sus proyectos), MySQL, Redis, optimización de consultas.
+- Cloud y DevOps: Docker, Docker Compose, GCP, AWS, CI/CD (GitLab CI, GitHub Actions), Linux, Nginx, Dokploy, Git (GitHub, GitLab, Azure DevOps).
+- Automatización: Selenium, Playwright, Pandas, UiPath, Automation Anywhere.
+- Seguridad y privacidad: JWT, OAuth2, defensa contra prompt injection, manejo de datos personales y control de acceso.
+- Metodología: Scrum, diseño técnico, revisión de código, mentoría.
 
 ## Educación
 
-- Ingeniería de Sistemas — UNIMINUTO (en curso, 7.º de 9 semestres, homologación).
-- Análisis y Desarrollo de Sistemas de Información — SENA (marzo 2022).
-- MisiónTIC 2022, desarrollo de software — Universidad Sergio Arboleda (enero 2022).
+- Ingeniería de Sistemas — UNIMINUTO (en curso, 7.º de 9 semestres).
+- Tecnología en Análisis y Desarrollo de Sistemas de Información — SENA (2020 – 2022).
+- MisiónTIC 2022, Desarrollo de Software (800 horas) — Universidad Sergio Arboleda (2021).
 
 ## Proyectos personales (los construyó solo, apoyándose en herramientas de IA)
 
