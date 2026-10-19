@@ -47,6 +47,14 @@ class Settings(BaseSettings):
     call_qa_per_ip_daily: int = 3
     call_qa_global_daily: int = 40
 
+    # Demo del validador de facturas (misma idea: prueba, no herramienta).
+    invoice_max_chars: int = 8000
+    invoice_max_tokens: int = 1500
+    invoice_burst: int = 3
+    invoice_burst_window_seconds: int = 600
+    invoice_per_ip_daily: int = 5
+    invoice_global_daily: int = 60
+
 
 @lru_cache
 def get_settings() -> Settings:
