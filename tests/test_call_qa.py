@@ -19,7 +19,12 @@ def good_result(**over):
         "callType": "support",
         "summary": "El cliente reporta una falla y la asesora la resuelve.",
         "customerSentiment": "positive",
-        "roles": ["agent", "customer"],  # falta uno: se completa con "unknown"
+        # el segmento 2 falta y el 7 no existe: quedan como "unknown" / se ignoran
+        "roles": [
+            {"segment": 0, "role": "agent"},
+            {"segment": 1, "role": "customer"},
+            {"segment": 7, "role": "agent"},
+        ],
         "criteria": [
             {
                 "key": "greeting",
