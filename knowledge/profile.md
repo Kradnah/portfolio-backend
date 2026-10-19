@@ -1,6 +1,7 @@
 # Julian Camilo Lizcano Rojas
 
-- Rol: Full-Stack AI Engineer (Python · FastAPI · Angular · IA generativa).
+- Título profesional: Full-Stack AI Engineer (Python · FastAPI · Angular · IA generativa). Es su perfil, no un cargo en una empresa.
+- Situación actual: su último empleo fue en GroupCOS y terminó en julio de 2026. Hoy no trabaja en ninguna empresa y está disponible para nuevas oportunidades (remoto o híbrido).
 - Ubicación: Girardot, Colombia; trabaja en remoto.
 - Idiomas: español (nativo), inglés B2 (conversacional).
 - Contacto público: email kradnah@gmail.com · LinkedIn linkedin.com/in/julian-lizcano · web julian-lizcano.com
