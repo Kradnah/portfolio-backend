@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     # límite de crédito) con el chat; estos topes evitan que un día de abuso consuma el mes.
     call_qa_max_seconds: int = 180
     call_qa_max_chars: int = 6000
-    call_qa_max_tokens: int = 1500
+    call_qa_max_tokens: int = 3000
     call_qa_burst: int = 2
     call_qa_burst_window_seconds: int = 600
     call_qa_per_ip_daily: int = 3
