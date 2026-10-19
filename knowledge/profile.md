@@ -41,9 +41,9 @@ Diseñó una solución de análisis de llamadas con IA que ahorra USD 4.000 al m
 - Desarrollo asistido por IA: Claude Code, OpenCode, flujos con agentes, MCP y Agent Skills.
 - Backend: Python, FastAPI, Flask, APIs REST, Node.js, NestJS, WebSockets y SSE (streaming), Celery, RabbitMQ, Kafka, procesamiento asíncrono.
 - Frontend: Angular (17+, signals), React, TypeScript, JavaScript.
-- Bases de datos: PostgreSQL (incluido PostGIS en sus proyectos), MySQL, Redis, optimización de consultas.
+- Datos y bases de datos: PostgreSQL (incluido PostGIS en sus proyectos), MySQL, Redis, optimización de consultas; Pandas para limpieza, transformación y ETL.
 - Cloud y DevOps: Docker, Docker Compose, GCP, AWS, CI/CD (GitLab CI, GitHub Actions), Linux, Nginx, Dokploy, Git (GitHub, GitLab, Azure DevOps).
-- Automatización: Selenium, Playwright, Pandas, UiPath, Automation Anywhere.
+- Automatización: Selenium, Playwright, UiPath, Automation Anywhere.
 - Seguridad y privacidad: JWT, OAuth2, defensa contra prompt injection, manejo de datos personales y control de acceso.
 - Metodología: Scrum, diseño técnico, revisión de código, mentoría.
 
